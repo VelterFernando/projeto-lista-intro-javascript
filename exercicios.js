@@ -2,7 +2,7 @@
 
 // EXERCÍCIO 0A
 function soma(num1, num2) {
-  // implemente sua lógica aqui
+ // implemente sua lógica aqui
   return num1 + num2
 }
 
@@ -19,7 +19,10 @@ function imprimeMensagem() {
 // EXERCÍCIO 01
 function calculaAreaRetangulo() {
   // implemente sua lógica aqui
-
+let altura = prompt('Qual altura do retangulo?')
+let largura = prompt('Qual a largura do retangulo?')
+let area = altura * largura
+console.log(area)
 }
 
 // EXERCÍCIO 02

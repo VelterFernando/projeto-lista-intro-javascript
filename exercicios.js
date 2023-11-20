@@ -28,7 +28,10 @@ console.log(area)
 // EXERCÍCIO 02
 function imprimeIdade() {
   // implemente sua lógica aqui
-
+let anoAtual = prompt('Em que ano estamos?')
+let anoNascimento = prompt('Qual seu ano de Nascimento?')
+let idade = anoAtual - anoNascimento
+console.log(idade)
 }
 
 // EXERCÍCIO 03

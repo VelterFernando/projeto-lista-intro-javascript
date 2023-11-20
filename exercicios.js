@@ -2,7 +2,7 @@
 
 // EXERCÍCIO 0A
 function soma(num1, num2) {
-  // implemente sua lógica aqui
+ // implemente sua lógica aqui
   return num1 + num2
 }
 
@@ -19,13 +19,19 @@ function imprimeMensagem() {
 // EXERCÍCIO 01
 function calculaAreaRetangulo() {
   // implemente sua lógica aqui
-
+let altura = prompt('Qual altura do retangulo?')
+let largura = prompt('Qual a largura do retangulo?')
+let area = altura * largura
+console.log(area)
 }
 
 // EXERCÍCIO 02
 function imprimeIdade() {
   // implemente sua lógica aqui
-
+let anoAtual = prompt('Em que ano estamos?')
+let anoNascimento = prompt('Qual seu ano de Nascimento?')
+let idade = anoAtual - anoNascimento
+console.log(idade)
 }
 
 // EXERCÍCIO 03
